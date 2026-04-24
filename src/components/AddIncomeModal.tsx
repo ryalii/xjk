@@ -105,7 +105,7 @@ export default function AddIncomeModal({ open, onOpenChange, onSuccess }: AddInc
                 <SelectValue placeholder="选择收入类型">
                   <div className="flex items-center gap-2">
                     {(() => {
-                      const catConfig = categoryIcons[category];
+                      const catConfig = categoryIcons[category] || categoryIcons['Other'];
                       const Icon = catConfig.icon;
                       return (
                         <>

@@ -12,9 +12,9 @@ interface KPICardProps {
 }
 
 export default function KPICard({
-  title = `Total Balance`,
-  value = `$0.00`,
-  subtitle = `This month`,
+  title = `总余额`,
+  value = `¥0.00`,
+  subtitle = `本月`,
   trend = 0,
   icon = null,
   gradient = `gradient-blue`,

@@ -212,7 +212,7 @@ export default function AddTransactionModal({
                 <SelectValue placeholder="选择分类">
                   <div className="flex items-center gap-2">
                     {(() => {
-                      const catConfig = categoryIcons[category];
+                      const catConfig = categoryIcons[category] || categoryIcons['Other'];
                       const Icon = catConfig.icon;
                       return (
                         <>

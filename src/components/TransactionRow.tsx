@@ -31,7 +31,7 @@ export default function TransactionRow({ transaction, compact = false }: Transac
           : <ArrowDownRight size={13} className="expense-text" />
         }
         <span className={`text-sm font-bold ${isIncome ? `income-text` : `expense-text`}`}>
-          {isIncome ? `+` : `-`}${transaction.amount.toFixed(2)}
+          {isIncome ? `+` : `-`}¥{transaction.amount.toFixed(2)}
         </span>
       </div>
     </div>
