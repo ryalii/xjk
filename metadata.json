@@ -1,0 +1,6 @@
+{
+  "name": "FinTrkued - Personal Finance Tracker",
+  "description": "A comprehensive personal finance tracker built with React, Vite, and Tailwind CSS. Features dashboard analytics, transaction management, and budget tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

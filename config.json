@@ -1,0 +1,45 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "src": "src/pages/Dashboard.tsx"
+    },
+    {
+      "path": "/transactions",
+      "src": "src/pages/Transactions.tsx"
+    },
+    {
+      "path": "/budget",
+      "src": "src/pages/Budget.tsx"
+    },
+    {
+      "path": "/recurring",
+      "src": "src/pages/Recurring.tsx"
+    },
+    {
+      "path": "/calendar",
+      "src": "src/pages/CalendarPage.tsx"
+    },
+    {
+      "path": "/statistics",
+      "src": "src/pages/Statistics.tsx"
+    }
+  ],
+  "components": [
+    {
+      "name": "KPICard",
+      "src": "src/components/KPICard.tsx",
+      "route": "/preview/kpi-card"
+    },
+    {
+      "name": "Navbar",
+      "src": "src/components/Navbar.tsx",
+      "route": "/preview/navbar"
+    },
+    {
+      "name": "TransactionRow",
+      "src": "src/components/TransactionRow.tsx",
+      "route": "/preview/transaction-row"
+    }
+  ]
+}
