@@ -56,7 +56,9 @@ const usedLucideIcons = getUsedLucideIcons();
 export default defineConfig({
   cacheDir: "/tmp/vite",
   plugins: [
-    react(),
+    react({
+      fastRefresh: false,
+    }),
     tailwindcss(),
     AutoImport({
       dts: "auto-imports.d.ts",
@@ -90,7 +92,8 @@ export default defineConfig({
     },
   },
   server: {
-    port: 5000,
+    port: 3000,
     host: true,
+    hmr: false,
   },
 });
