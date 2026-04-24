@@ -43,7 +43,7 @@ interface RecurringBill {
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = 5000;
 
   // Initialize Database
   const db = new Database("finance.db");
